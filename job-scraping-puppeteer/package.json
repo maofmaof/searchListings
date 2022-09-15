@@ -1,0 +1,30 @@
+{
+  "name": "job-scraping-puppeteer",
+  "version": "1.0.0",
+  "description": "node.js",
+  "main": "jobb.nu.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/job-scarping/job-scraping-puppeteer.git"
+  },
+  "author": "Maof&Nic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/job-scarping/job-scraping-puppeteer/issues"
+  },
+  "homepage": "https://gitlab.com/job-scarping/job-scraping-puppeteer#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.7.0",
+    "mongoose": "^6.0.4",
+    "puppeteer": "^9.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
